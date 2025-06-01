@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  /* background-color: #1f2029; */
+  background-color: #121212;
+}
+
+body {
+  margin: 0;
+  font-family: 'Geist', sans-serif;
+  color: rgb(201, 213, 229);
+}
+
+.container {
+  border: 1px solid rgba(52, 53, 60, 1);
+  border-radius: 8px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.card {
+  background: linear-gradient(
+    145deg,
+    rgb(35, 38, 49),
+    rgb(37, 39, 49)
+  );
+  background-blend-mode: multiply, normal;
+}
+
+a {
+  color: inherit;
+}
+
+p {
+  font-family: 'Geist', sans-serif;
+  margin: 0;
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+h1 {
+  font-family: 'Geist', sans-serif;
+  font-size: 2em;
+  margin: 0;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Geist', sans-serif;
+  font-size: 1.65em;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Geist', sans-serif;
+  font-size: 1.375em;
+  margin: 0;
+  line-height: 2.6;
+}
+
+h4 {
+  font-family: 'Geist', sans-serif;
+  font-size: 1.125em;
+  margin: 0;
+  line-height: 2.9;
+}
+
+h5 {
+  font-family: 'Geist', sans-serif;
+  font-size: 0.83em;
+  margin: 0;
+  line-height: 3.2;
+}
+
+h6 {
+  font-family: 'Geist', sans-serif;
+  font-size: 0.67em;
+  margin: 0;
+  line-height: 3.5;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}

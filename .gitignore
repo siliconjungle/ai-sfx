@@ -1,0 +1,13 @@
+node_modules
+.node_modules
+.node_modules/
+next
+.next
+.next/
+.vercel
+.DS_Store
+.env
+.env.development.local
+.env.local
+public/.DS_Store
+lib/.DS_Store
