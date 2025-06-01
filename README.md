@@ -1,4 +1,4 @@
-# AI SFX
+# AI Retro FX
 
 Generates sound effects using AI & SFXR.
 
